@@ -16,5 +16,5 @@ jobs:
     - name: Runs this workflow
       env:
         SEARCH_GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
-      uses:  orta/code-organizer-merge-on-green@master
+      uses:  j82w/code-organizer-merge-on-green@master
 
